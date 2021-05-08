@@ -1,0 +1,11 @@
+#!/bin/bash
+
+set -euo pipefail
+
+savedir=${HOME}/.castlequest
+savefile=${savedir}/CQUEST.SAV
+
+[[ -d ${savedir} ]] || mkdir ${savedir}
+[[ -e ${savefile} ]] || touch ${savefile}
+
+docker run --rm -it -v ${HOME}/.castlequest/CQUEST.SAV:/Castlequest/src/CQUEST.SAV castlequest:1.0
