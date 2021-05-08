@@ -13,7 +13,7 @@ Build a container image to play [Castlequest](https://github.com/Quuxplusone/Cas
 make
 ```
 
-## Enjoy…
+## Enjoy…
 
 ``` shell
 ./run
