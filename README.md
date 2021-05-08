@@ -19,4 +19,4 @@ make
 ./run
 ```
 
-The `SAVE` and `RESTORE` game commands use read and write to `${HOME}/.castlequest/CQUEST.SAV` on the host.
+The `SAVE` and `RESTORE` game commands read and write `${HOME}/.castlequest/CQUEST.SAV` on the host.
